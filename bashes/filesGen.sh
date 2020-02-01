@@ -1,4 +1,3 @@
 
-mkdir data; mkdir dag; mkdir logs;
-touch genesis.json;
+mkdir data; mkdir logs;
 cat $1 > genesis.json;
