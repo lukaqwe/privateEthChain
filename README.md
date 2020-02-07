@@ -6,9 +6,9 @@ For creating a node follow this steps:
 
 1. Create a directory for storing node info `mkdir Node`
 2. Copy bashes to the directory `cp bashes/* Node/`
-3. Enter the directory `cd Node` and run the bashes in the following order: \n
-    `bash filesGen.sh` - for creating data/ logs/ and genesis.json \n
-    `bash init.sh` - for initializing the blockchain with the custom sampleGenesis \n
+3. Enter the directory `cd Node` and run the bashes in the following order: <br>
+    `bash filesGen.sh` - for creating data/ logs/ and genesis.json <br>
+    `bash init.sh` - for initializing the blockchain with the custom sampleGenesis <br>
     `bash nodeStart <RPCport> <ListeningPort>` - for running the console, <b>Note</b>: RPCport and  ListeningPort arguments are mandatory, the arguments are included if 2 nodes on same machine is desired, if so the ports must be different.
 
 You can modify sampleGenesis if desired, however if you change networkId do not forget to change it in the nodeStart.sh
