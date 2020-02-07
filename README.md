@@ -22,7 +22,7 @@ If that is completed follow this steps in order to connect 2 nodes:
 2. In the console of the second type `admin.addPeers("enode://8a23ae738eabf5ce7cba9f587aeb048178f101b1773909f9d3d71bd448e3132f32eeacd61bc022d4620d5f6e659efa304e9d28ba89c9a84a9bffd9345651b2c5@100.111.8.143:3030")`
 3. Check if the connection was established by `admin.peers` or `net.peerCount`, if there is no connected peers then disable firewall by `sudo ufw disable` and try again.
 
-However, the connection is lost after geth restart. If you want two nodes to be always connected on boot, then create a file `static-nodes.json` in `data/geth/` and paste the following: <br>
+However, the connection is lost after geth restart. If you want two nodes to be always connected on boot, then create a file `static-nodes.json` in `data/geth/` and paste the enode configuration of the other node, like the following: <br>
 `[
 "enode://8a23ae738eabf5ce7cba9f587aeb048178f101b1773909f9d3d71bd448e3132f32eeacd61bc022d4620d5f6e659efa304e9d28ba89c9a84a9bffd9345651b2c5@100.111.8.143:3030"
 ]`
