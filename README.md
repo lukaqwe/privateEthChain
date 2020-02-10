@@ -72,8 +72,8 @@ Create your contract file in the folder contracts/ . Then create a migration fil
 >     var MyContract = artifacts.require("MyContract");
 >     
 >     module.exports = function(deployer) {
-      deployer.deploy(MyContract);
-      }
+>      deployer.deploy(MyContract);
+>      }
 
 
  <br> If your contract's  constructor requires arguments then declare the deployer like this `deployer.deploy(MyContract, arg1, arg2, ...)`. For more information on deployment options check <a href="https://www.trufflesuite.com/docs/truffle/getting-started/running-migrations"> migrations documentation </a>. (You know what, you can actually check all the <a href = "https://www.trufflesuite.com/docs/truffle/overview"> truffle documentation </a>). <br>
