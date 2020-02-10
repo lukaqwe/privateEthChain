@@ -1,0 +1,23 @@
+INFO [02-10|15:53:13.657] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-10|15:53:13.657] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [02-10|15:53:13.659] Found deprecated node list file /home/luca/Projects/git/privateEthChain/Node0/data/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [02-10|15:53:13.659] Starting peer-to-peer node               instance=Geth/v1.9.10-stable-58cf5686/linux-amd64/go1.13.6
+INFO [02-10|15:53:13.659] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [02-10|15:53:13.659] Allocated cache and file handles         database=/home/luca/Projects/git/privateEthChain/Node0/data/geth/chaindata cache=512.00MiB handles=524288
+INFO [02-10|15:53:13.705] Opened ancient database                  database=/home/luca/Projects/git/privateEthChain/Node0/data/geth/chaindata/ancient
+INFO [02-10|15:53:13.706] Initialised chain configuration          config="{ChainID: 4567 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [02-10|15:53:13.706] Disk storage enabled for ethash caches   dir=/home/luca/Projects/git/privateEthChain/Node0/data/geth/ethash count=3
+INFO [02-10|15:53:13.707] Disk storage enabled for ethash DAGs     dir=/home/luca/.ethash count=2
+INFO [02-10|15:53:13.707] Initialising Ethereum protocol           versions="[64 63]" network=4567 dbversion=7
+INFO [02-10|15:53:13.709] Loaded most recent local header          number=266 hash=8e4ef7…980581 td=35302646 age=18m7s
+INFO [02-10|15:53:13.709] Loaded most recent local full block      number=266 hash=8e4ef7…980581 td=35302646 age=18m7s
+INFO [02-10|15:53:13.709] Loaded most recent local fast block      number=266 hash=8e4ef7…980581 td=35302646 age=18m7s
+INFO [02-10|15:53:13.709] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-10|15:53:13.710] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [02-10|15:53:13.710] Switch sync mode from fast sync to full sync 
+INFO [02-10|15:53:13.731] New local node record                    seq=24 id=8402c8b6cd180a5c ip=127.0.0.1 udp=0 tcp=3030
+INFO [02-10|15:53:13.731] Started P2P networking                   self="enode://8a23ae738eabf5ce7cba9f587aeb048178f101b1773909f9d3d71bd448e3132f32eeacd61bc022d4620d5f6e659efa304e9d28ba89c9a84a9bffd9345651b2c5@127.0.0.1:3030?discport=0"
+INFO [02-10|15:53:13.733] IPC endpoint opened                      url=data/geth.ipc
+INFO [02-10|15:53:13.734] HTTP endpoint opened                     url=http://127.0.0.1:8585 cors=* vhosts=localhost
+INFO [02-10|15:53:13.808] Etherbase automatically configured       address=0xcbb365ae4d679e097B807456fC7Cd18D168C74Fb
+INFO [02-10|16:53:13.710] Regenerated local transaction journal    transactions=0 accounts=0
