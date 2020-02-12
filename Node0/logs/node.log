@@ -1,34 +1,32 @@
-INFO [02-12|14:00:58.723] Maximum peer count                       ETH=50 LES=0 total=50
-INFO [02-12|14:00:58.723] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
-WARN [02-12|14:00:58.724] Found deprecated node list file /home/luca/Projects/git/privateEthChain/Node0/data/geth/static-nodes.json, please use the TOML config file instead. 
-INFO [02-12|14:00:58.724] Starting peer-to-peer node               instance=Geth/v1.9.10-stable-58cf5686/linux-amd64/go1.13.6
-INFO [02-12|14:00:58.724] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
-INFO [02-12|14:00:58.724] Allocated cache and file handles         database=/home/luca/Projects/git/privateEthChain/Node0/data/geth/chaindata cache=512.00MiB handles=524288
-INFO [02-12|14:00:58.741] Opened ancient database                  database=/home/luca/Projects/git/privateEthChain/Node0/data/geth/chaindata/ancient
-INFO [02-12|14:00:58.741] Initialised chain configuration          config="{ChainID: 4567 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
-INFO [02-12|14:00:58.742] Disk storage enabled for ethash caches   dir=/home/luca/Projects/git/privateEthChain/Node0/data/geth/ethash count=3
-INFO [02-12|14:00:58.742] Disk storage enabled for ethash DAGs     dir=/home/luca/.ethash count=2
-INFO [02-12|14:00:58.742] Initialising Ethereum protocol           versions="[64 63]" network=4567 dbversion=7
-INFO [02-12|14:00:58.742] Loaded most recent local header          number=1148 hash=0b4daa…090019 td=157533685 age=1h43m2s
-INFO [02-12|14:00:58.742] Loaded most recent local full block      number=1148 hash=0b4daa…090019 td=157533685 age=1h43m2s
-INFO [02-12|14:00:58.742] Loaded most recent local fast block      number=1148 hash=0b4daa…090019 td=157533685 age=1h43m2s
-INFO [02-12|14:00:58.742] Loaded local transaction journal         transactions=0 dropped=0
-INFO [02-12|14:00:58.743] Regenerated local transaction journal    transactions=0 accounts=0
-WARN [02-12|14:00:58.743] Switch sync mode from fast sync to full sync 
-INFO [02-12|14:00:58.770] New local node record                    seq=37 id=8402c8b6cd180a5c ip=127.0.0.1 udp=0 tcp=3030
-INFO [02-12|14:00:58.770] Started P2P networking                   self="enode://8a23ae738eabf5ce7cba9f587aeb048178f101b1773909f9d3d71bd448e3132f32eeacd61bc022d4620d5f6e659efa304e9d28ba89c9a84a9bffd9345651b2c5@127.0.0.1:3030?discport=0"
-INFO [02-12|14:00:58.772] IPC endpoint opened                      url=data/geth.ipc
-INFO [02-12|14:00:58.774] HTTP endpoint opened                     url=http://127.0.0.1:8585 cors=* vhosts=localhost
-INFO [02-12|14:00:58.849] Etherbase automatically configured       address=0xcbb365ae4d679e097B807456fC7Cd18D168C74Fb
-INFO [02-12|14:01:02.514] HTTP endpoint closed                     url=http://127.0.0.1:8585
-INFO [02-12|14:01:02.514] IPC endpoint closed                      url=data/geth.ipc
-INFO [02-12|14:01:02.515] Writing cached state to disk             block=1148 hash=0b4daa…090019 root=8dcf55…e4e9bd
-INFO [02-12|14:01:02.515] Persisted trie from memory database      nodes=0 size=0.00B time=13.604µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
-INFO [02-12|14:01:02.515] Writing cached state to disk             block=1147 hash=c5604d…951d46 root=b162b5…888c3f
-INFO [02-12|14:01:02.515] Persisted trie from memory database      nodes=0 size=0.00B time=8.929µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
-INFO [02-12|14:01:02.516] Writing cached state to disk             block=1021 hash=d08f48…6dccfd root=d0a73e…a949b2
-INFO [02-12|14:01:02.516] Persisted trie from memory database      nodes=0 size=0.00B time=7.496µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
-INFO [02-12|14:01:02.516] Blockchain manager stopped 
-INFO [02-12|14:01:02.516] Stopping Ethereum protocol 
-INFO [02-12|14:01:02.516] Ethereum protocol stopped 
-INFO [02-12|14:01:02.516] Transaction pool stopped 
+INFO [02-12|14:05:58.521] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-12|14:05:58.522] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [02-12|14:05:58.523] Starting peer-to-peer node               instance=Geth/v1.9.10-stable-58cf5686/linux-amd64/go1.13.6
+INFO [02-12|14:05:58.523] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [02-12|14:05:58.523] Allocated cache and file handles         database=/home/luca/Projects/git/privateEthChain/Node0/data/geth/chaindata cache=512.00MiB handles=524288
+INFO [02-12|14:05:58.544] Opened ancient database                  database=/home/luca/Projects/git/privateEthChain/Node0/data/geth/chaindata/ancient
+INFO [02-12|14:05:58.545] Initialised chain configuration          config="{ChainID: 4567 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [02-12|14:05:58.546] Disk storage enabled for ethash caches   dir=/home/luca/Projects/git/privateEthChain/Node0/data/geth/ethash count=3
+INFO [02-12|14:05:58.546] Disk storage enabled for ethash DAGs     dir=/home/luca/.ethash count=2
+INFO [02-12|14:05:58.546] Initialising Ethereum protocol           versions="[64 63]" network=4567 dbversion=7
+INFO [02-12|14:05:58.547] Loaded most recent local header          number=1148 hash=0b4daa…090019 td=157533685 age=1h48m2s
+INFO [02-12|14:05:58.548] Loaded most recent local full block      number=1148 hash=0b4daa…090019 td=157533685 age=1h48m2s
+INFO [02-12|14:05:58.548] Loaded most recent local fast block      number=1148 hash=0b4daa…090019 td=157533685 age=1h48m2s
+INFO [02-12|14:05:58.548] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [02-12|14:05:58.548] Switch sync mode from fast sync to full sync 
+INFO [02-12|14:05:58.586] New local node record                    seq=1 id=dbf34b5775ab577a ip=127.0.0.1 udp=0 tcp=3030
+INFO [02-12|14:05:58.586] Started P2P networking                   self="enode://e73c49108aca9687e2b2f2b625e9d30e29b0b8f48969d708c39795ebfe8d2a0edf9ff806417661fa23db47e8c56f0662d6a08515f382212859e9772ca37c54ac@127.0.0.1:3030?discport=0"
+INFO [02-12|14:05:58.588] IPC endpoint opened                      url=data/geth.ipc
+INFO [02-12|14:05:58.589] HTTP endpoint opened                     url=http://127.0.0.1:8585 cors=* vhosts=localhost
+WARN [02-12|14:05:58.660] Served eth_coinbase                      reqid=3 t=23.162µs err="etherbase must be explicitly specified"
+INFO [02-12|14:06:01.185] HTTP endpoint closed                     url=http://127.0.0.1:8585
+INFO [02-12|14:06:01.185] IPC endpoint closed                      url=data/geth.ipc
+INFO [02-12|14:06:01.185] Writing cached state to disk             block=1148 hash=0b4daa…090019 root=8dcf55…e4e9bd
+INFO [02-12|14:06:01.185] Persisted trie from memory database      nodes=0 size=0.00B time=9.958µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-12|14:06:01.185] Writing cached state to disk             block=1147 hash=c5604d…951d46 root=b162b5…888c3f
+INFO [02-12|14:06:01.185] Persisted trie from memory database      nodes=0 size=0.00B time=2.975µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-12|14:06:01.186] Writing cached state to disk             block=1021 hash=d08f48…6dccfd root=d0a73e…a949b2
+INFO [02-12|14:06:01.186] Persisted trie from memory database      nodes=0 size=0.00B time=4.912µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [02-12|14:06:01.186] Blockchain manager stopped 
+INFO [02-12|14:06:01.186] Stopping Ethereum protocol 
+INFO [02-12|14:06:01.186] Ethereum protocol stopped 
+INFO [02-12|14:06:01.186] Transaction pool stopped 

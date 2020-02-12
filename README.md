@@ -84,8 +84,8 @@ After you've done the migration file, type `truffle compile` then `truffle migra
 
 Deploying and interacting with smart contracts in geth is cumbersome. It is not simple since there are not tools that do the work for you, but by using geth you can learn what is going on behind. For deployment you need just 2 lines of code. Before applying them you need the contract's abi and its bytecode. You can  get the ABI by `solc --abi myContract.sol` abd the  bytecode with `solc --bin myContract.sol`. <br> Then declare the contract by `var contract = eth.contract(<your-abi-here>)`, and  instantiate by  `var contractInstance = contract.new([arg1,...],{from: eth.accounts[0] , data: '0x<your-bin-here>', gas : 2000000})`, where `[arg1, ...]` are constructor arguments. After mining the contract it should be deployed and you can interact with it by calling its functions using `.call()` or `.sendTransaction(<transaction-json>)`. If your contract was not mined then increase the gas value, if then the contract is not mined then you should check if your constructor has no problems being called. When interacting with your smart contract `call()` is used when the state is not changed, while `sendTransaction()` is used when the state of the contract is changed, therefore for the return the transaction must be mined. You can call them in multiple ways but be sure before doing that to set a default account, ex : `eth.defaultAccount = eth.coinbase `, doing otherwise will get you the error <i>invalid address</i>. After function call you may also get the error <i> gas required exceeds allowance or always failing transaction</i>. This is because the contract execution requires more gas than the current gas limit. The gas limit is set at the genesis block and is updated after each block if it is reached, you can see the value with which it is updated in the <a href = "https://ethereum.github.io/yellowpaper/paper.pdf"> Ethereum Yellow Paper </a>. To see how much gas the call requires you can do the following:   
 
-> var callData = contractInstance.method.getData([arg1,...])
-> eth.estimateGas({from : eth.defaultAccount, to : contractInstance.address , data : callData})
+>     var callData = contractInstance.method.getData([arg1,...])
+>     eth.estimateGas({from : eth.defaultAccount, to : contractInstance.address , data : callData})
 
 For setting a new gas limit, you need to call the geth instance again with `--targetgaslimit <some-good-big-number>` along with the other arguments. Setting this number too big might be risky if you are not careful how network's computational resources are used. If, however, after setting the new gas limit you still can't run your contract, or even you can't get the gas estimate because of the same error, then you should look at the nature of your contract. There might be some functions whose gas requirement is infinite. For seeing if there are such, compile your contract in Remix IDE, and look at the warnings in Solidity Static Analysis. A function requires infinite gas if it has some variable with non-fixed length or an infinite loop.
 
@@ -98,7 +98,7 @@ Non-changeable methods can be called in the following ways:
 Changeable methods can be called in the following ways:
 
 >     contractInstance.method([arg1,...]).sendTransaction({from: <address>})
->      contractInstance.method.sendTransaction([arg1, ...], {from : <address>})
+>     contractInstance.method.sendTransaction([arg1, ...], {from : <address>})
 
 Where  `[arg1, ...]` are method's arguments.
 

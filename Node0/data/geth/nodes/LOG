@@ -322,3 +322,41 @@
 14:00:58.764653 db@open done T·20.87569ms
 14:01:02.517237 db@close closing
 14:01:02.517474 db@close done T·230.619µs
+=============== Feb 12, 2020 (EET) ===============
+14:05:58.549659 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:05:58.550192 version@stat F·[3 1] S·653B[477B 176B] Sc·[0.75 0.00]
+14:05:58.550285 db@open opening
+14:05:58.550526 journal@recovery F·1
+14:05:58.554542 journal@recovery recovering @106
+14:05:58.557326 memdb@flush created L0@108 N·1 S·159B "loc..seq,v71":"loc..seq,v71"
+14:05:58.559417 version@stat F·[4 1] S·812B[636B 176B] Sc·[1.00 0.00]
+14:05:58.566417 db@janitor table missing @66
+=============== Feb 12, 2020 (EET) ===============
+14:05:58.566886 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:05:58.567154 table@recovery F·4
+14:05:58.567177 table@recovery recovering @101
+14:05:58.567293 table@recovery recovered @101 Gk·1 Ck·0 Cb·0 S·159 Q·45
+14:05:58.567329 table@recovery recovering @103
+14:05:58.567439 table@recovery recovered @103 Gk·1 Ck·0 Cb·0 S·159 Q·67
+14:05:58.567465 table@recovery recovering @105
+14:05:58.567541 table@recovery recovered @105 Gk·1 Ck·0 Cb·0 S·159 Q·69
+14:05:58.567563 table@recovery recovering @108
+14:05:58.567642 table@recovery recovered @108 Gk·1 Ck·0 Cb·0 S·159 Q·71
+14:05:58.567666 table@recovery recovered F·4 N·4 Gk·4 Ck·0 Q·71
+14:05:58.573696 version@stat F·[4] S·636B[636B] Sc·[1.00]
+14:05:58.575636 db@open opening
+14:05:58.575904 journal@recovery F·1
+14:05:58.578236 journal@recovery recovering @109
+14:05:58.580751 version@stat F·[4] S·636B[636B] Sc·[1.00]
+14:05:58.583108 db@janitor F·7 G·0
+14:05:58.583181 db@open done T·7.487356ms
+14:05:58.583394 table@compaction L0·4 -> L1·0 S·636B Q·72
+14:05:58.586081 table@build created L1@111 N·1 S·159B "loc..seq,v71":"loc..seq,v71"
+14:05:58.586232 version@stat F·[0 1] S·159B[0B 159B] Sc·[0.00 0.00]
+14:05:58.589251 table@compaction committed F-3 S-477B Ke·0 D·3 T·5.755047ms
+14:05:58.589533 table@remove removed @108
+14:05:58.589657 table@remove removed @105
+14:05:58.589875 table@remove removed @103
+14:05:58.590032 table@remove removed @101
+14:06:01.186819 db@close closing
+14:06:01.187021 db@close done T·195.646µs
