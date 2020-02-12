@@ -1,0 +1,4 @@
+admin.peers
+net.peerCount
+admin.nodeInfo.enode
+eth.blockNumber

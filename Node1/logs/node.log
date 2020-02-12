@@ -1,0 +1,48 @@
+INFO [02-12|14:45:04.826] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [02-12|14:45:04.826] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [02-12|14:45:04.827] Found deprecated node list file /home/luca/Projects/git/privateEthChain/Node1/data/geth/static-nodes.json, please use the TOML config file instead. 
+INFO [02-12|14:45:04.827] Starting peer-to-peer node               instance=Geth/v1.9.10-stable-58cf5686/linux-amd64/go1.13.6
+INFO [02-12|14:45:04.827] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [02-12|14:45:04.827] Allocated cache and file handles         database=/home/luca/Projects/git/privateEthChain/Node1/data/geth/chaindata cache=512.00MiB handles=524288
+INFO [02-12|14:45:04.852] Opened ancient database                  database=/home/luca/Projects/git/privateEthChain/Node1/data/geth/chaindata/ancient
+INFO [02-12|14:45:04.852] Initialised chain configuration          config="{ChainID: 4560 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [02-12|14:45:04.852] Disk storage enabled for ethash caches   dir=/home/luca/Projects/git/privateEthChain/Node1/data/geth/ethash count=3
+INFO [02-12|14:45:04.852] Disk storage enabled for ethash DAGs     dir=/home/luca/.ethash count=2
+INFO [02-12|14:45:04.852] Initialising Ethereum protocol           versions="[64 63]" network=4560 dbversion=7
+INFO [02-12|14:45:04.853] Loaded most recent local header          number=0 hash=808330…7bba8e td=512 age=50y10mo4d
+INFO [02-12|14:45:04.853] Loaded most recent local full block      number=0 hash=808330…7bba8e td=512 age=50y10mo4d
+INFO [02-12|14:45:04.853] Loaded most recent local fast block      number=0 hash=808330…7bba8e td=512 age=50y10mo4d
+INFO [02-12|14:45:04.853] Loaded local transaction journal         transactions=0 dropped=0
+INFO [02-12|14:45:04.853] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [02-12|14:45:04.861] Allocated fast sync bloom                size=512.00MiB
+INFO [02-12|14:45:04.861] Initialized fast sync bloom              items=0 errorrate=0.000 elapsed=44.004µs
+INFO [02-12|14:45:04.880] New local node record                    seq=4 id=2fbe3dcb79b95f46 ip=127.0.0.1 udp=30302 tcp=30302
+INFO [02-12|14:45:04.880] Started P2P networking                   self=enode://1eb5bfb3b52a4660211146bba5bf1ee7c235420919956a37d6d7a0da04decd1fd9991796a7952123c3125716229a473854e0c03bb37cbeb3c8a3973a02b19df2@127.0.0.1:30302
+INFO [02-12|14:45:04.882] IPC endpoint opened                      url=data/geth.ipc
+INFO [02-12|14:45:04.882] HTTP endpoint opened                     url=http://127.0.0.1:8541 cors=* vhosts=localhost
+WARN [02-12|14:45:04.940] Served eth_coinbase                      reqid=3 t=15.453µs err="etherbase must be explicitly specified"
+INFO [02-12|14:45:07.131] New local node record                    seq=5 id=2fbe3dcb79b95f46 ip=100.111.8.143 udp=30302 tcp=30302
+INFO [02-12|14:47:35.523] Block synchronisation started 
+INFO [02-12|14:47:35.526] Imported new state entries               count=1 elapsed=47.166µs processed=1 pending=0 retry=0 duplicate=0 unexpected=0
+WARN [02-12|14:47:36.084] Fast syncing, discarded propagated block number=1 hash=389904…60815e
+INFO [02-12|14:47:36.085] Imported new block headers               count=2 elapsed=559.934ms number=2 hash=91edb6…e47f8c
+INFO [02-12|14:47:36.085] Imported new chain segment               blocks=2 txs=0 mgas=0.000 elapsed=301.206µs mgasps=0.000 number=2 hash=91edb6…e47f8c dirty=488.00B
+INFO [02-12|14:47:36.124] Fast sync complete, auto disabling 
+INFO [02-12|14:47:37.596] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.864ms   mgasps=0.000 number=3 hash=bd914f…e846d9 dirty=732.00B
+INFO [02-12|14:47:38.200] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.958ms   mgasps=0.000 number=4 hash=be4a07…672edf dirty=977.00B
+INFO [02-12|14:47:38.540] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.986ms   mgasps=0.000 number=5 hash=12a7a9…615adf dirty=1.19KiB
+INFO [02-12|14:47:38.540] Mining too far in the future             wait=2s
+INFO [02-12|14:47:40.569] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.404ms   mgasps=0.000 number=6 hash=17e874…383276 dirty=1.43KiB
+INFO [02-12|14:47:41.018] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.380ms   mgasps=0.000 number=7 hash=0bf5f1…3770b5 dirty=1.67KiB
+INFO [02-12|14:47:41.373] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.888ms   mgasps=0.000 number=8 hash=cb55d1…b166d5 dirty=1.91KiB
+INFO [02-12|14:47:41.373] Mining too far in the future             wait=2s
+INFO [02-12|14:47:59.555] HTTP endpoint closed                     url=http://127.0.0.1:8541
+INFO [02-12|14:47:59.555] IPC endpoint closed                      url=data/geth.ipc
+INFO [02-12|14:47:59.556] Writing cached state to disk             block=8 hash=cb55d1…b166d5 root=328510…64b106
+INFO [02-12|14:47:59.556] Persisted trie from memory database      nodes=1 size=149.00B   time=199.535µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=8 livesize=1.02KiB
+INFO [02-12|14:47:59.556] Writing cached state to disk             block=7 hash=0bf5f1…3770b5 root=51b5a2…e9b45e
+INFO [02-12|14:47:59.556] Persisted trie from memory database      nodes=1 size=149.00B   time=54.172µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=7 livesize=891.00B
+INFO [02-12|14:47:59.556] Blockchain manager stopped 
+INFO [02-12|14:47:59.556] Stopping Ethereum protocol 
+INFO [02-12|14:47:59.557] Ethereum protocol stopped 
+INFO [02-12|14:47:59.557] Transaction pool stopped 

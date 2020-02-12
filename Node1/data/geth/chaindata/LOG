@@ -1,0 +1,32 @@
+=============== Feb 12, 2020 (EET) ===============
+14:37:07.255150 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:37:07.263042 db@open opening
+14:37:07.263567 version@stat F·[] S·0B[] Sc·[]
+14:37:07.265097 db@janitor F·2 G·0
+14:37:07.265112 db@open done T·2.011649ms
+14:37:07.265362 db@close closing
+14:37:07.265397 db@close done T·33.877µs
+=============== Feb 12, 2020 (EET) ===============
+14:43:59.076325 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:43:59.076424 version@stat F·[] S·0B[] Sc·[]
+14:43:59.076438 db@open opening
+14:43:59.076475 journal@recovery F·1
+14:43:59.078462 journal@recovery recovering @1
+14:43:59.085612 memdb@flush created L0@2 N·10 S·570B "H\x80\x83..{\xba\x8e,v3":"r\x00\x00..{\xba\x8e,v5"
+14:43:59.087682 version@stat F·[1] S·570B[570B] Sc·[0.25]
+14:43:59.092708 db@janitor F·3 G·0
+14:43:59.092731 db@open done T·16.284176ms
+14:44:55.693906 db@close closing
+14:44:55.694100 db@close done T·185.081µs
+=============== Feb 12, 2020 (EET) ===============
+14:45:04.827814 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:45:04.832943 version@stat F·[1] S·570B[570B] Sc·[0.25]
+14:45:04.832962 db@open opening
+14:45:04.833000 journal@recovery F·1
+14:45:04.834975 journal@recovery recovering @3
+14:45:04.836882 memdb@flush created L0@5 N·1 S·192B "Dat..ion,v12":"Dat..ion,v12"
+14:45:04.838878 version@stat F·[2] S·762B[762B] Sc·[0.50]
+14:45:04.843547 db@janitor F·4 G·0
+14:45:04.843569 db@open done T·10.598436ms
+14:47:59.557193 db@close closing
+14:47:59.557375 db@close done T·176.108µs
