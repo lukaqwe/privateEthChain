@@ -91,16 +91,16 @@ For setting a new gas limit, you need to call the geth instance again with `--ta
 
 Non-changeable methods can be called in the following ways:
 
-> contractInstance.method([arg1, ...])
-> contractInstance.method.call([arg1, ...])
-> contractInstance.method([arg1,...]).call()
+>     contractInstance.method([arg1, ...])  
+>     contractInstance.method.call([arg1, ...])
+>     contractInstance.method([arg1,...]).call()
 
 Changeable methods can be called in the following ways:
 
->contractInstance.method([arg1,...]).sendTransaction({from: <address> [,value : <value> , gas : <value> , ...]})
->contractInstance.method.sendTransaction([arg1, ...], {from : <address> [,value : <value> , gas : <value> , ...]})
+>     contractInstance.method([arg1,...]).sendTransaction({from: <address>})
+>      contractInstance.method.sendTransaction([arg1, ...], {from : <address>})
 
-Where  `[arg1, ...]` are method's arguments. 
+Where  `[arg1, ...]` are method's arguments.
 
 
 More at https://github.com/ethereum/go-ethereum/wiki/Contract-Tutorial.
