@@ -252,3 +252,44 @@
 15:53:13.672179 db@open done T·12.54967ms
 19:59:30.292908 db@close closing
 19:59:30.293796 db@close done T·879.999µs
+=============== Feb 12, 2020 (EET) ===============
+14:00:38.370155 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:00:38.370300 version@stat F·[3 1] S·121KiB[81KiB 39KiB] Sc·[0.75 0.00]
+14:00:38.370321 db@open opening
+14:00:38.370385 journal@recovery F·2
+14:00:38.372360 journal@recovery recovering @50
+14:00:38.376142 journal@recovery recovering @82
+14:00:38.385429 memdb@flush created L0@83 N·4050 S·226KiB "\x02\x0f\x88..׃\b,v6502":"\xf9l=..D\xba\xaa,v6505"
+14:00:38.385461 version@stat F·[4 1] S·347KiB[307KiB 39KiB] Sc·[1.00 0.00]
+14:00:38.395976 memdb@flush created L0@85 N·1320 S·72KiB " \xda9..\x1f\xa7\xb5,v10621":"\xf03r..{h[,v10626"
+14:00:38.398337 version@stat F·[5 1] S·420KiB[380KiB 39KiB] Sc·[1.25 0.00]
+14:00:38.400071 db@janitor F·13 G·5
+14:00:38.400086 db@janitor removing table-71
+14:00:38.400116 db@janitor removing manifest-83
+14:00:38.400139 db@janitor removing table-76
+14:00:38.400167 db@janitor removing table-70
+14:00:38.400357 db@janitor removing table-79
+14:00:38.400412 db@open done T·30.082508ms
+14:00:38.400473 table@compaction L0·5 -> L1·1 S·420KiB Q·10631
+14:00:38.410295 table@build created L1@87 N·5260 S·327KiB "\x02\x0f\x88..׃\b,v6502":"\xf9l=..D\xba\xaa,v6531"
+14:00:38.410345 version@stat F·[0 1] S·327KiB[0B 327KiB] Sc·[0.00 0.00]
+14:00:38.413783 table@compaction committed F-5 S-92KiB Ke·0 D·2278 T·13.284149ms
+14:00:38.413863 table@remove removed @85
+14:00:38.413898 table@remove removed @49
+14:00:38.413922 table@remove removed @34
+14:00:38.413949 table@remove removed @29
+14:00:38.413974 table@remove removed @22
+14:00:42.689918 db@close closing
+14:00:42.690125 db@close done T·200.66µs
+=============== Feb 12, 2020 (EET) ===============
+14:00:58.725058 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:00:58.725187 version@stat F·[0 1] S·327KiB[0B 327KiB] Sc·[0.00 0.00]
+14:00:58.725204 db@open opening
+14:00:58.725245 journal@recovery F·1
+14:00:58.727244 journal@recovery recovering @86
+14:00:58.729878 version@stat F·[0 1] S·327KiB[0B 327KiB] Sc·[0.00 0.00]
+14:00:58.739811 db@janitor F·4 G·1
+14:00:58.739836 db@janitor removing table-83
+14:00:58.739910 db@open done T·14.699937ms
+14:01:02.516697 db@close closing
+14:01:02.516941 db@close done T·235.735µs

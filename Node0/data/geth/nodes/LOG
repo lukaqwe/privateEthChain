@@ -289,3 +289,36 @@
 15:53:13.734024 table@remove removed @53
 19:59:30.294200 db@close closing
 19:59:30.294751 db@close done T·546.7µs
+=============== Feb 12, 2020 (EET) ===============
+14:00:38.402936 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:00:38.403067 version@stat F·[0 1] S·176B[0B 176B] Sc·[0.00 0.00]
+14:00:38.403094 db@open opening
+14:00:38.403159 journal@recovery F·2
+14:00:38.403764 journal@recovery recovering @64
+14:00:38.403843 journal@recovery recovering @100
+14:00:38.406415 memdb@flush created L0@101 N·1 S·159B "loc..seq,v45":"loc..seq,v45"
+14:00:38.406442 version@stat F·[1 1] S·335B[159B 176B] Sc·[0.25 0.00]
+14:00:38.415704 memdb@flush created L0@103 N·1 S·159B "loc..seq,v67":"loc..seq,v67"
+14:00:38.416189 version@stat F·[2 1] S·494B[318B 176B] Sc·[0.50 0.00]
+14:00:38.417428 db@janitor F·11 G·6
+14:00:38.417438 db@janitor removing table-92
+14:00:38.417470 db@janitor removing table-96
+14:00:38.417498 db@janitor removing table-63
+14:00:38.417523 db@janitor removing table-93
+14:00:38.417548 db@janitor removing manifest-101
+14:00:38.417572 db@janitor removing table-99
+14:00:38.417608 db@open done T·14.507419ms
+14:00:42.690371 db@close closing
+14:00:42.690611 db@close done T·230.958µs
+=============== Feb 12, 2020 (EET) ===============
+14:00:58.743614 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:00:58.743738 version@stat F·[2 1] S·494B[318B 176B] Sc·[0.50 0.00]
+14:00:58.743762 db@open opening
+14:00:58.743811 journal@recovery F·1
+14:00:58.744279 journal@recovery recovering @104
+14:00:58.756130 memdb@flush created L0@105 N·1 S·159B "loc..seq,v69":"loc..seq,v69"
+14:00:58.758192 version@stat F·[3 1] S·653B[477B 176B] Sc·[0.75 0.00]
+14:00:58.764577 db@janitor F·6 G·0
+14:00:58.764653 db@open done T·20.87569ms
+14:01:02.517237 db@close closing
+14:01:02.517474 db@close done T·230.619µs

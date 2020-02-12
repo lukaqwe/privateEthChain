@@ -192,3 +192,4 @@ Auction.transactionHash
 Auction.getBalance(eth.coinbase)
 Auction.getBalance()
 Auction.getBalance.call()
+eth.blockNumber
